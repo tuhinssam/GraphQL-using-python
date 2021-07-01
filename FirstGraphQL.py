@@ -2,11 +2,7 @@ from graphene import ObjectType, String
 import graphene
 import json
 
-    """[summary]
 
-    Returns:
-        [type]: [description]
-    """
 class Query(ObjectType):
     # this defines a Field `hello` in our Schema with a single Argument `name`
     isStaff = graphene.Boolean()

@@ -4,6 +4,7 @@ from datetime import datetime
 
 """
     GraphQL schema with parameters
+    GraphQL schema with mutations (PUT/DELETE in REST)
 
 """
 
